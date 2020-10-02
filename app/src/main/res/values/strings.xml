@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Chat Box</string>
+    <string name="log_out">Log Out</string>
+    <string name="all_users">All Users</string>
+    <string name="accountsettings">AccountSettings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_to_request_fragment">Welcome to Request Fragment</string>
+    <string name="welcome_to_chats_fragment">Welcome to Chats Fragment</string>
+    <string name="welcome_to_friends_fragment">Welcome to friends fragment</string>
+</resources>

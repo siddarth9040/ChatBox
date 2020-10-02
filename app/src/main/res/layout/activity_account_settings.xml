@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountSettings"
+    android:background="@color/colorPrimaryDark">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/setting_img"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="116dp"
+        android:src="@drawable/default_imge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/setting_disp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="112dp"
+        android:text="Display Name"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/setting_img" />
+
+    <TextView
+        android:id="@+id/setting_status"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="80dp"
+        android:text="Hi,there I am using chat box"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/setting_disp" />
+
+    <Button
+        android:id="@+id/changeimg"
+        android:layout_width="133dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="Change image"
+        app:layout_constraintBottom_toTopOf="@+id/changests"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/setting_status" />
+
+    <Button
+        android:id="@+id/changests"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="133dp"
+        android:layout_marginEnd="141dp"
+        android:layout_marginBottom="100dp"
+        android:text="change status"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

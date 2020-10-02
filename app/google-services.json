@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "181684684267",
+    "firebase_url": "https://chat-box-f587b.firebaseio.com",
+    "project_id": "chat-box-f587b",
+    "storage_bucket": "chat-box-f587b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181684684267:android:5d91ec299fb20273",
+        "android_client_info": {
+          "package_name": "com.example.chatbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181684684267-9c19nkvmqfu5vtf8er9tmokfmaaf3h25.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJehCnbZrdm8cs2D9xYhkTIQ3HrcGdl2I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "181684684267-9c19nkvmqfu5vtf8er9tmokfmaaf3h25.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
